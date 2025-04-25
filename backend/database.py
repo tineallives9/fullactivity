@@ -1,6 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
+
 # Directly put the database URL here
 DATABASE_URL = "postgresql://todo_list_db_722s_user:LcHpcJOexpy9Q7rSvmrargzkHrMc2iZy@dpg-cvn47di4d50c73ft4qh0-a.oregon-postgres.render.com/todo_list_db_722s"
 
